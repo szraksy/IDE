@@ -75,20 +75,20 @@ We have 3 differents branches so I will add my files also to the another branch
 
 To reset branch to previous commit use git checkout e48215c6ec4cd8305988bea9ae4ec68d755047d7
 
-![Alt](https://github.com/szraksy/IDE/blob/master/LAB1/img/11.PNG)
+![Alt](https://github.com/szraksy/IDE/blob/master/LAB1/img/12.PNG)
 
 Merging of two branches is done with git merge nameOfBranchToMergeCurrentOne
 
-![Alt](https://github.com/szraksy/IDE/blob/master/LAB1/img/12.PNG)
+![Alt](https://github.com/szraksy/IDE/blob/master/LAB1/img/13.PNG)
 
 ## 8. Git Branching –Rebasing
 
 In Git, there are two main ways to integrate changes from one branch into another: the merge and the rebase. In this section you’ll learn what rebasing is, how to do it, why it’s a pretty amazing tool, and in what cases you won’t want to use it.
 
-![Alt](https://github.com/szraksy/IDE/blob/master/LAB1/img/13.png)
+![Alt](https://github.com/szraksy/IDE/blob/master/LAB1/img/14.png)
 The easiest way to integrate the branches, as we’ve already covered, is the merge command. It performs a three-way merge between the two latest branch snapshots (C3 and C4) and the most recent common ancestor of the two (C2), creating a new snapshot (and commit).
 
-![Alt](https://github.com/szraksy/IDE/blob/master/LAB1/img/14.png)
+![Alt](https://github.com/szraksy/IDE/blob/master/LAB1/img/15.png)
 
 However, there is another way: you can take the patch of the change that was introduced in C4 and reapply it on top of C3. In Git, this is called rebasing. With the rebase command, you can take all the changes that were committed on one branch and replay them on another one.
 In this example, you’d run the following:
